@@ -17,16 +17,16 @@ html {
 }
 
 body {
-  background: url("/dist/images/pattern-background-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: $background;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   font-size: 1.6rem;
+  flex-direction: column;
+  display: flex;
+  background: url("/dist/images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: $background;
+  align-items: center;
 }
 
 main {
