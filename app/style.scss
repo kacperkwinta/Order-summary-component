@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+$background: hsl(225, 100%, 94%);
+$accent: hsl(245, 75%, 52%);
+$box-plan: hsl(225, 100%, 98%);
+$paragraph: hsl(224, 23%, 55%);
+$header: hsl(223, 47%, 23%);
+
 html {
-  font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 52.5%;
 }
 
 * {
@@ -8,10 +17,16 @@ html {
 }
 
 body {
+  background: url(/dist/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $background;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.6rem;
 }
 
 main {
@@ -20,16 +35,101 @@ main {
   justify-content: center;
 }
 
-.attribution {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+.wrapper {
+  margin: 3rem 0;
+  max-width: 40rem;
   text-align: center;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem 0.5rem $background;
+}
+
+.wrapper-img {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.wrapper-header {
+  font-size: 2.4rem;
+  margin: 3rem 0 1rem 0;
+  color: $header;
+  font-weight: 900;
+}
+
+.wrapper-paragraph {
+  color: $paragraph;
+  line-height: 2.5rem;
+  padding: 0 3rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper-plan {
+  background: $box-plan;
+  border-radius: 1rem;
+  margin: 0 3rem;
+  padding: 0 2rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper-plan--container {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-plan-icon {
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-plan--type {
+  font-weight: 700;
+  color: $header;
+}
+
+.wrapper-plan--cost {
+  font-weight: 500;
+  color: $paragraph;
+}
+
+.wrapper-plan--change {
+  color: $accent;
+  font-size: 1.28rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.wrapper-link--payment {
+  display: inline-block;
+  background: $accent;
+  color: white;
+  margin: 2.5rem 0;
+  border-radius: 1rem;
+  padding: 1.75rem 9.225rem;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 1rem 2rem -1rem $accent;
+}
+
+.wrapper-link--cancel {
+  display: inline-block;
+  text-decoration: none;
+  color: $paragraph;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.attribution {
+  font-size: 1.3rem;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $accent;
 }
