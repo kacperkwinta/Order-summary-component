@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="author" content="Kacper Kwinta">
+  <!-- styles -->
+  <link rel="stylesheet" href="dist/css/style.css">
 </head>
+
 <body>
 
-  Order Summary
+  <main>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <div class="wrapper">
 
-  Annual Plan
-  $59.99/year
+      <h1 class="wrapper-header">Order Summary</h1>
 
-  Change
+      <p class="wrapper-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="wrapper-plan">
+
+        <img src="dist/images/icon-music.svg" class="wrapper-plan-icon" alt="" aria-hidden="true">
+
+        <p class="wrapper-plan--type">Annual Plan</p>
+        <p class="wrapper-plan--cost">$59.99/year</p>
+        <p class="wrapper-plan--change">Change</p>
+
+      </div>
+
+      <a href="#" class="wrapper-link--payment">Proceed to Payment</a>
+      <a href="#" class="wrapper-link--cancel">Cancel Order</a>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj" target="_blank"
+        rel="noopener">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/kacperkwinta" target="_blank" rel="noopener">Kacper Kwinta</a>. </div>
+
+  </footer>
+
 </body>
+
 </html>
