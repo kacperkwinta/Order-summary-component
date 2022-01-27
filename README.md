@@ -13,6 +13,7 @@ Thanks for checking my solution 😎
 - Semantic HTML5 markup
 - BEM
 - Sass
+- Flexbox
 
 ### What i learned
 
