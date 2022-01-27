@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - Order summary component
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-design.jpg)
 
