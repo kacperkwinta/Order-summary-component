@@ -133,3 +133,7 @@ main {
 .attribution a {
   color: $accent;
 }
+
+a:focus-visible {
+  outline: 0.2rem dashed red;
+}
