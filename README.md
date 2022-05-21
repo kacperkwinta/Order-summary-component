@@ -8,8 +8,6 @@
 - Sass
 - Flexbox
 
-### What i learned
-
 ### Links 🌐
 
 - Live Site URL 🔴: [click!](https://kacperkwinta.github.io/Order-summary-component/)
