@@ -2,12 +2,6 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-design.jpg)
 
-## Welcome! 👋
-
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
-
-Thanks for checking my solution 😎
-
 ### Built with 💻
 
 - Semantic HTML5 markup
